@@ -20,6 +20,8 @@
         <spring-boot.version>1.3.0.RELEASE</spring-boot.version>
         <springloaded.version>1.2.5.RELEASE</springloaded.version>
         <fastjson.version>1.2.7</fastjson.version>
+        <webmagic-core>0.5.3</webmagic-core>
+        <webmagic-extension>0.5.3</webmagic-extension>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
@@ -55,6 +57,17 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-freemarker</artifactId>
+        </dependency>
+        <!--爬虫-->
+        <dependency>
+            <groupId>us.codecraft</groupId>
+            <artifactId>webmagic-core</artifactId>
+            <version>${webmagic-core}</version>
+        </dependency>
+        <dependency>
+            <groupId>us.codecraft</groupId>
+            <artifactId>webmagic-extension</artifactId>
+            <version>${webmagic-extension}</version>
         </dependency>
     </dependencies>
     <build>
